@@ -38,11 +38,11 @@ def load_tileset_info():
     if not os.path.exists(tileset_info_file):
         # The tileset info file doesn't exist.
         recompute_part1 = True
-
-    for file in precompute_tileset_info_files:
-        if os.path.getmtime(file) >  os.path.getmtime(tileset_info_file):
-            # A file was updated.
-            recompute_part1 = True
+    else:
+        for file in precompute_tileset_info_files:
+            if os.path.getmtime(file) >  os.path.getmtime(tileset_info_file):
+                # A file was updated.
+                recompute_part1 = True
 
     if recompute_part1:
         precompute_tilesets_part1(precompute_tileset_info_files, tileset_info_file)
