@@ -46,7 +46,7 @@ class TestConvertMethods(unittest.TestCase):
         tileset_id, offset = detect_tileset(image)
 
         assert (tileset_id == get_id_of_tileset(actual_tileset_name)), "Detected tileset id: {}, name: {}".format(tileset_id, get_tileset_by_id(tileset_id)["local_filename"])
-        assert (tuple(offset.tolist()) == actual_offset), "Detected offset: {}".format(offset)
+        assert (tuple(offset) == actual_offset), "Detected offset: {}".format(offset)
 
     def test_check_tileset_all_offsets0(self):
         self.general_test_check_tileset_all_offsets(0)

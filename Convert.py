@@ -120,7 +120,7 @@ def detect_tileset(image):
     else:
         index_into_probable = np.argmax(confidence)
         tileset_id = probable_tileset_ids[index_into_probable]
-        tileset_offset = stats.mode(np.array([o[index_into_probable] for o in offset]), axis=0)[0][0]
+        tileset_offset = stats.mode(np.array([o[index_into_probable] for o in offset]), axis=0)[0][0].tolist()
 
     print()
     print("Detected offset: {}".format(tileset_offset))
