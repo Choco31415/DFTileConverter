@@ -554,8 +554,3 @@ def k_means_cluster(colors):
     new_colors = kmeans.cluster_centers_[cluster_ids].reshape(colors.shape)
 
     return new_colors
-
-tileset = get_tileset("cheepicus_15x15.png")
-input_filepath = "resources/screenshots/Image_Vidumec15x15a.png"
-output_filepath = "resources/tmp/test.png"
-convert_screenshot(input_filepath, output_filepath, tileset)
