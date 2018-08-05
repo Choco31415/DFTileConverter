@@ -6,7 +6,7 @@ DFTileConverter is a python program that converts a Dwarf Fortress screenshot to
 
 `pip install -r requirements.txt`
 
-Note: The initial run will be a minute slower then all subsequent runs.
+Note: The initial run will be slower then all subsequent runs.
 
 ## Usage
 
