@@ -32,7 +32,7 @@ slow_check_size = 9
 fast_hash_threshold = 0.97
 slow_hash_threshold = 0.8
 
-max_entropy = -0.6 # Entropy required in an analyzed image subset
+max_entropy = -0.55 # Entropy required in an analyzed image subset
 entropy_check_shapes = [largest_tile_dims(), [16, 16], [8, 8], smallest_tile_dims()]
 max_failed_subsets = 30 # Max number of times to find a suitable subset before requirements are relaxed
 kmeans_num_clusters = 18 # Should be 16, but this gives some leeway
