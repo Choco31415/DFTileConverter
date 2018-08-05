@@ -165,46 +165,5 @@ def extract_tilesets(wiki_api, pagename):
 
     print("Finished downloading data.")
 
-def precompute_tilesets(precompute_tileset_info_files, postcompute_tileset_info_file):
-    to_return = []
-
-    for file in precompute_tileset_info_files:
-        with open(file, "r") as f:
-            to_return.extend(json.loads(f.read()))
-
-    print("Precomputing information based on saved data.")
-
-    for info in to_return:
-        local_filepath = info["local_filepath"]
-
-        image = image_to_array(local_filepath)
-        use_alpha = check_image_alpha(local_filepath)
-
-        tile_shape = [image.shape[0] // 16, image.shape[1] // 16]
-
-        combined_color_guesses = []
-
-        for y in range(16):
-            for x in range(16):
-                tile = image[
-                       y * tile_shape[0]: (y + 1) * tile_shape[0],
-                       x * tile_shape[1]: (x + 1) * tile_shape[1]
-                       ]
-
-                combined_color_guesses.append(
-                    tile_color_guesses(tile, use_alpha))
-
-        info["alpha"] = use_alpha
-        info["shape"] = tile_shape
-        info["size"] = tile_shape[0] * tile_shape[1]
-        info["color_guesses"] = combined_color_guesses
-
-    with open(postcompute_tileset_info_file, "w+") as f:
-        f.write(json.dumps(to_return, indent=2))
-
-    print("Finished precomputing.")
-
 # Run stuff
 extract_tilesets(wiki_api, wiki_page)
-
-precompute_tilesets(precompute_tileset_info_files, postcompute_tileset_info_file)

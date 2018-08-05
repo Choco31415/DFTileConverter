@@ -1,28 +1,16 @@
 [
   {
     "wiki_location": "None",
-    "shape": [
-      8,
-      12
-    ],
     "local_filename": "curses_640x300.png",
     "local_filepath": "resources/default tilesets/curses_640x300.png"
   },
   {
     "wiki_location": "None",
-    "shape": [
-      10,
-      12
-    ],
     "local_filename": "curses_800x600.png",
     "local_filepath": "resources/default tilesets/curses_800x600.png"
   },
   {
     "wiki_location": "None",
-    "shape": [
-      16,
-      16
-    ],
     "local_filename": "curses_square_16x16.png",
     "local_filepath": "resources/default tilesets/curses_square_16x16.png"
   }

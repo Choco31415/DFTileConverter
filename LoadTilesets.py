@@ -9,11 +9,15 @@ import json
 
 # Define constants
 tileset_info_file = os.path.join("resources", "tileset_info.txt")
+precompute_tileset_info_files = [
+    os.path.join("resources", "tmp_tileset_info.txt"),
+    os.path.join("resources", "default_tileset_info.txt")
+]
 tileset_info = None
 
 max_checks = 4 # Max number of color guesses
-min_tile_size = 2 # Anything smaller causes subtle bugs in code >.>
-max_tile_size = 32 # They're slooowwww
+min_tile_length = 2 # Anything smaller causes subtle bugs in code >.>
+max_tile_length = 32 # They're slooowwww
 epsilon = 0.001
 
 # Define methods
@@ -25,7 +29,77 @@ def load_tileset_info():
     :param files: Tileset info files
     :return: All the info merged into a list.
     """
-    global min_tile_size, max_tile_size, tileset_info, tileset_info_file
+    global tileset_info_file, precompute_tileset_info_files, min_tile_length, max_tile_length
+
+    print("Loading in tileset info.")
+
+    recompute_part1 =  False
+
+    if not os.path.exists(tileset_info_file):
+        # The tileset info file doesn't exist.
+        recompute_part1 = True
+
+    for file in precompute_tileset_info_files:
+        if os.path.getmtime(file) >  os.path.getmtime(tileset_info_file):
+            # A file was updated.
+            recompute_part1 = True
+
+    if recompute_part1:
+        precompute_tilesets_part1(precompute_tileset_info_files, tileset_info_file)
+
+    precompute_tilesets_part2(min_tile_length, max_tile_length, tileset_info_file)
+
+def precompute_tilesets_part1(precompute_tileset_info_files, tileset_info_file):
+    """
+    Compute non-numpy, easily chacheable data about the tilesets.
+
+    :param precompute_tileset_info_files: Tileset info files from TilesetScrapper.py
+    :param tileset_info_file: Where to output computed info to.
+    :return: Nothing, really. *sweats*
+    """
+    to_return = []
+
+    for file in precompute_tileset_info_files:
+        with open(file, "r") as f:
+            to_return.extend(json.loads(f.read()))
+
+    for info in to_return:
+        local_filepath = info["local_filepath"]
+
+        image = image_to_array(local_filepath)
+        use_alpha = check_image_alpha(local_filepath)
+
+        tile_shape = [image.shape[0] // 16, image.shape[1] // 16]
+
+        combined_color_guesses = []
+
+        for y in range(16):
+            for x in range(16):
+                tile = image[
+                       y * tile_shape[0]: (y + 1) * tile_shape[0],
+                       x * tile_shape[1]: (x + 1) * tile_shape[1]
+                       ]
+
+                combined_color_guesses.append(
+                    tile_color_guesses(tile, use_alpha))
+
+        info["alpha"] = use_alpha
+        info["shape"] = tile_shape
+        info["size"] = tile_shape[0] * tile_shape[1]
+        info["color_guesses"] = combined_color_guesses
+
+    with open(tileset_info_file, "w+") as f:
+        f.write(json.dumps(to_return, indent=2))
+
+    print("Finished precomputing part 1.")
+
+def precompute_tilesets_part2(min_tile_length, max_tile_length, tileset_info_file):
+    """
+    Compute more information about the tilesets.
+
+    :return: Nothing.
+    """
+    global tileset_info
 
     to_return = []
 
@@ -40,11 +114,11 @@ def load_tileset_info():
 
         tile_shape = info["shape"]
 
-        if tile_shape[0] < min_tile_size or tile_shape[1] < min_tile_size:
+        if tile_shape[0] < min_tile_length or tile_shape[1] < min_tile_length:
             del to_return[i]
             continue
 
-        if tile_shape[0] > max_tile_size or tile_shape[1] > max_tile_size:
+        if tile_shape[0] > max_tile_length or tile_shape[1] > max_tile_length:
             del to_return[i]
             continue
 
@@ -64,6 +138,8 @@ def load_tileset_info():
         info["hashes"] = calculate_tileset_info(info["tiles"], info["alpha"])
 
     tileset_info = to_return
+
+    print("Finished precomputing part 2.")
 
 def calculate_tileset_info(tiles, use_alpha):
     """

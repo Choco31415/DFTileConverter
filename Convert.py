@@ -555,6 +555,7 @@ def k_means_cluster(colors):
 
     return new_colors
 
-print(get_id_of_tileset("isenhertz"))
-
-convert_screenshot("resources/screenshots/Image_Vidumec15x15a.png", "resources/tmp/test.png", get_tileset("Talryth_square_15x15"))
+tileset = get_tileset("cheepicus_15x15.png")
+input_filepath = "resources/screenshots/Image_Vidumec15x15a.png"
+output_filepath = "resources/tmp/test.png"
+convert_screenshot(input_filepath, output_filepath, tileset)
