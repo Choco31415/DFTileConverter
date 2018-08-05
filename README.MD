@@ -1,6 +1,6 @@
 ![An example image conversion, before and after being side by side.](resources/Example.png "Example Conversion")
 
-DFTileConverter is a python program that given a Dwarf Fortress screenshot, will convert it to another tileset.
+DFTileConverter is a python program that converts a Dwarf Fortress screenshot to a new tileset.
 
 ## Setup
 
