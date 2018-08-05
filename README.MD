@@ -1,22 +1,34 @@
 ![An example image conversion, before and after being side by side.](resources/Example.png "Example Conversion")
 
-DFTileConverter is a python program that given a DF screenshot, will convert it to another tileset.
+DFTileConverter is a python program that converts a Dwarf Fortress screenshot to a new tileset.
 
 ## Setup
 
-1. Install requirements:
-
 `pip install -r requirements.txt`
 
-2. Due to Github file size restrictions, run the precomputation script from `TilesetScrapper.py`:
-
-`precompute_tilesets(precompute_tileset_info_files, postcompute_tileset_info_file)`
+Note: The initial run will be a minute slower then all subsequent runs.
 
 ## Usage
 
 1. Pass in a unique tileset name to `get_tileset` from `LoadTilesets.py`. Here, a unique name refers to a unique string found in the tileset filename.
 2. Using the result from step 1, call `convert_screenshot` from `Convert.py`.
 3. Celebrate!
+
+Here is an example snippet of code:
+
+```
+tileset = get_tileset("cheepicus_15x15.png")
+input_filepath = "resources/screenshots/Image_Vidumec15x15a.png"
+output_filepath = "resources/tmp/test.png"
+convert_screenshot(input_filepath, output_filepath, tileset)
+```
+
+## Common Issues
+
+1. It's taking over a minute!
+    * This is most likely because the screenshot's tileset is not recognized. There are two options:
+        1. Please add the tileset to the [DF Wiki tileset repository](http://dwarffortresswiki.org/Tileset_repository), then re-run `TilesetScrapper.py`.
+        2. Manually add the tileset to `resources/default_tileset_info.txt`.
 
 ## Project Layout
 

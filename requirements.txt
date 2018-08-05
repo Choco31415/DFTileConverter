@@ -2,3 +2,4 @@ numpy
 sklearn
 scipy
 Pillow
+matplotlib

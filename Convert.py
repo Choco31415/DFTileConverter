@@ -32,8 +32,8 @@ slow_check_size = 9
 fast_hash_threshold = 0.97
 slow_hash_threshold = 0.8
 
-max_entropy = -0.6 # Entropy required in an analyzed image subset
-entropy_check_shapes = [largest_tile_dims(), [16, 16], [8, 8], smallest_tile_dims()]
+max_entropy = -0.55 # Entropy required in an analyzed image subset
+additional_entropy_check_shapes = [[16, 16], [8, 8]]
 max_failed_subsets = 30 # Max number of times to find a suitable subset before requirements are relaxed
 kmeans_num_clusters = 18 # Should be 16, but this gives some leeway
 
@@ -120,7 +120,7 @@ def detect_tileset(image):
     else:
         index_into_probable = np.argmax(confidence)
         tileset_id = probable_tileset_ids[index_into_probable]
-        tileset_offset = stats.mode(np.array([o[index_into_probable] for o in offset]), axis=0)[0][0]
+        tileset_offset = stats.mode(np.array([o[index_into_probable] for o in offset]), axis=0)[0][0].tolist()
 
     print()
     print("Detected offset: {}".format(tileset_offset))
@@ -137,15 +137,15 @@ def guess_tileset(image, tileset_ids, check_size):
     :param check_size: Tile area of image to analyze.
     :return: (confidence per tileset, (offset_y, offset_x) per tileset)
     """
-    global entropy_check_shapes, max_failed_subsets, testing, testing2, testing3, testing4
+    global additional_entropy_check_shapes, max_failed_subsets, testing, testing2, testing3, testing4
 
     confidence = np.zeros([len(tileset_ids)])
     offset = []
 
     check_size = [check_size, check_size]
 
-    max_check_size = [image.shape[0] // largest_tile_dims()[0] - 1,
-                      image.shape[1] // largest_tile_dims()[1] - 1]
+    max_check_size = [image.shape[0] // largest_tile_dims(tileset_ids)[0] - 1,
+                      image.shape[1] // largest_tile_dims(tileset_ids)[1] - 1]
 
     if check_size[0] > max_check_size[0]:
         check_size[0] = max_check_size[0]
@@ -160,14 +160,16 @@ def guess_tileset(image, tileset_ids, check_size):
     while not entropic:
         entropic = True
         subset_corner = [np.random.randint(
-            image.shape[0] - (check_size[0] + 1) * largest_tile_dims()[0]),
+            image.shape[0] - (check_size[0] + 1) * largest_tile_dims(tileset_ids)[0]),
                          np.random.randint(
-            image.shape[1] - (check_size[1] + 1) * largest_tile_dims()[1])]
+            image.shape[1] - (check_size[1] + 1) * largest_tile_dims(tileset_ids)[1])]
         subset = image[
                  subset_corner[0]:
-                 subset_corner[0] + (check_size[0] + 1) * largest_tile_dims()[0],
+                 subset_corner[0] + (check_size[0] + 1) * largest_tile_dims(tileset_ids)[0],
                  subset_corner[1]:
-                 subset_corner[1] + (check_size[1] + 1) * largest_tile_dims()[1]]
+                 subset_corner[1] + (check_size[1] + 1) * largest_tile_dims(tileset_ids)[1]]
+
+        entropy_check_shapes = [smallest_tile_dims(tileset_ids), largest_tile_dims(tileset_ids)] + additional_entropy_check_shapes
 
         for subset_shape in entropy_check_shapes:
             subset_small = subset[
@@ -257,6 +259,7 @@ def check_subset(subset, tileset, check_size):
     global testing, testing2, testing3, testing4
 
     confidence = 0
+
     tiles = np.array(np.split(subset, check_size[0], axis=0))
     tiles = np.array(np.split(tiles, check_size[1], axis=2))
 
@@ -554,7 +557,3 @@ def k_means_cluster(colors):
     new_colors = kmeans.cluster_centers_[cluster_ids].reshape(colors.shape)
 
     return new_colors
-
-print(get_id_of_tileset("isenhertz"))
-
-convert_screenshot("resources/screenshots/Image_Vidumec15x15a.png", "resources/tmp/test.png", get_tileset("Talryth_square_15x15"))

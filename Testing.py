@@ -19,7 +19,6 @@ actual_tile_id_files = [os.path.join("resources", "test", "Image_Vidumec15x15b_t
                os.path.join("resources", "test", "Image_Anikki8x8_tile_ids")]
 
 # Setup
-load_tileset_info()
 
 # Define methods
 class TestLoadTilesetMethods(unittest.TestCase):
@@ -46,7 +45,7 @@ class TestConvertMethods(unittest.TestCase):
         tileset_id, offset = detect_tileset(image)
 
         assert (tileset_id == get_id_of_tileset(actual_tileset_name)), "Detected tileset id: {}, name: {}".format(tileset_id, get_tileset_by_id(tileset_id)["local_filename"])
-        assert (tuple(offset.tolist()) == actual_offset), "Detected offset: {}".format(offset)
+        assert (tuple(offset) == actual_offset), "Detected offset: {}".format(offset)
 
     def test_check_tileset_all_offsets0(self):
         self.general_test_check_tileset_all_offsets(0)
