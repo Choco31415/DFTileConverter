@@ -21,13 +21,13 @@ DFTileConverter is a python program that given a DF screenshot, will convert it 
 ## Project Layout
 
 * Convert
-** This file is aimed at the actual act of converting screenshots between different tilesets.
+    * This file is aimed at the actual act of converting screenshots between different tilesets.
 * LoadTilesets
-** This file is aimed at loading tilesets and interacting with them. Some precomputations take place here. (Aka numpy related precomputations.)
+    * This file is aimed at loading tilesets and interacting with them. Some precomputations take place here. (Aka numpy related precomputations.)
 * Testing
-** This file is aimed at testing parts of the project to ensure stability.
+    * This file is aimed at testing parts of the project to ensure stability.
 * TilesetScrapper
-** This file is aimed at scrapping tilesets from the DF wiki, and precomputing some tileset data. (
+    * This file is aimed at scrapping tilesets from the DF wiki, and precomputing some tileset data. (
 
 ## Contributing
 
