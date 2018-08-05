@@ -1,0 +1,22 @@
+[
+  {
+    "wiki_location": "None",
+    "local_filename": "curses_640x300.png",
+    "local_filepath": "resources/test/Subset Tilesets/curses_640x300.png"
+  },
+  {
+    "wiki_location": "None",
+    "local_filename": "Zaratustra_custom_4x6.png",
+    "local_filepath": "resources/test/Subset Tilesets/Zaratustra_custom_4x6.png"
+  },
+  {
+    "wiki_location": "Image:16x16_isenhertz_v2.png",
+    "local_filename": "16x16_isenhertz_v2.png",
+    "local_filepath": "resources/tilesets/16x16_isenhertz_v2.png"
+  },
+  {
+    "wiki_location": "None",
+    "local_filename": "Vidumec_15x15.png",
+    "local_filepath": "resources/test/Subset Tilesets/Vidumec_15x15.png"
+  }
+]

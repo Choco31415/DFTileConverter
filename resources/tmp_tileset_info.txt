@@ -1,0 +1,872 @@
+[
+  {
+    "wiki_location": "Image:Monoscii_Lite.png",
+    "local_filename": "Monoscii_Lite.png",
+    "local_filepath": "resources/tilesets/Monoscii_Lite.png"
+  },
+  {
+    "wiki_location": "Image:Kein_400x125.png",
+    "local_filename": "Kein_400x125.png",
+    "local_filepath": "resources/tilesets/Kein_400x125.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_custom_5x5.png",
+    "local_filename": "Zaratustra_custom_5x5.png",
+    "local_filepath": "resources/tilesets/Zaratustra_custom_5x5.png"
+  },
+  {
+    "wiki_location": "Image:Geti_custom_6x6.png",
+    "local_filename": "Geti_custom_6x6.png",
+    "local_filepath": "resources/tilesets/Geti_custom_6x6.png"
+  },
+  {
+    "wiki_location": "Image:Lord Nightmare 6x6font01.png",
+    "local_filename": "Lord Nightmare 6x6font01.png",
+    "local_filepath": "resources/tilesets/Lord Nightmare 6x6font01.png"
+  },
+  {
+    "wiki_location": "Image:Lord Nightmare 6x6font02.png",
+    "local_filename": "Lord Nightmare 6x6font02.png",
+    "local_filepath": "resources/tilesets/Lord Nightmare 6x6font02.png"
+  },
+  {
+    "wiki_location": "Image:Mkv_curses_480x150.png",
+    "local_filename": "Mkv_curses_480x150.png",
+    "local_filepath": "resources/tilesets/Mkv_curses_480x150.png"
+  },
+  {
+    "wiki_location": "Image:Mkv_curses_480x150_v2.png",
+    "local_filename": "Mkv_curses_480x150_v2.png",
+    "local_filepath": "resources/tilesets/Mkv_curses_480x150_v2.png"
+  },
+  {
+    "wiki_location": "Image:nobbins6x6.png",
+    "local_filename": "nobbins6x6.png",
+    "local_filepath": "resources/tilesets/nobbins6x6.png"
+  },
+  {
+    "wiki_location": "Image:nobbin_ts_v2.png",
+    "local_filename": "nobbin_ts_v2.png",
+    "local_filepath": "resources/tilesets/nobbin_ts_v2.png"
+  },
+  {
+    "wiki_location": "Image:Herrbdog_7x7_tileset.gif",
+    "local_filename": "Herrbdog_7x7_tileset.gif",
+    "local_filepath": "resources/tilesets/Herrbdog_7x7_tileset.gif"
+  },
+  {
+    "wiki_location": "Image:terbert_7x7.png",
+    "local_filename": "terbert_7x7.png",
+    "local_filepath": "resources/tilesets/terbert_7x7.png"
+  },
+  {
+    "wiki_location": "Image:Anikki_square_8x8.png",
+    "local_filename": "Anikki_square_8x8.png",
+    "local_filepath": "resources/tilesets/Anikki_square_8x8.png"
+  },
+  {
+    "wiki_location": "Image:cheepicus_8x8.png",
+    "local_filename": "cheepicus_8x8.png",
+    "local_filepath": "resources/tilesets/cheepicus_8x8.png"
+  },
+  {
+    "wiki_location": "Image:Jdpage_8x8.png",
+    "local_filename": "Jdpage_8x8.png",
+    "local_filepath": "resources/tilesets/Jdpage_8x8.png"
+  },
+  {
+    "wiki_location": "Image:CGA8x8thick.png",
+    "local_filename": "CGA8x8thick.png",
+    "local_filepath": "resources/tilesets/CGA8x8thick.png"
+  },
+  {
+    "wiki_location": "Image:CGA8x8thin.png",
+    "local_filename": "CGA8x8thin.png",
+    "local_filepath": "resources/tilesets/CGA8x8thin.png"
+  },
+  {
+    "wiki_location": "Image:LN_EGA8x8.png",
+    "local_filename": "LN_EGA8x8.png",
+    "local_filepath": "resources/tilesets/LN_EGA8x8.png"
+  },
+  {
+    "wiki_location": "Image:Pastiche_8x8.png",
+    "local_filename": "Pastiche_8x8.png",
+    "local_filepath": "resources/tilesets/Pastiche_8x8.png"
+  },
+  {
+    "wiki_location": "Image:Potash_8x8.png",
+    "local_filename": "Potash_8x8.png",
+    "local_filepath": "resources/tilesets/Potash_8x8.png"
+  },
+  {
+    "wiki_location": "Image:Acorntileset8x8.png",
+    "local_filename": "Acorntileset8x8.png",
+    "local_filepath": "resources/tilesets/Acorntileset8x8.png"
+  },
+  {
+    "wiki_location": "Image:yayo_c64_640x200.png",
+    "local_filename": "yayo_c64_640x200.png",
+    "local_filepath": "resources/tilesets/yayo_c64_640x200.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_msx.png",
+    "local_filename": "Zaratustra_msx.png",
+    "local_filepath": "resources/tilesets/Zaratustra_msx.png"
+  },
+  {
+    "wiki_location": "Image:720x225_SmoothWalls.PNG",
+    "local_filename": "720x225_SmoothWalls.PNG",
+    "local_filepath": "resources/tilesets/720x225_SmoothWalls.PNG"
+  },
+  {
+    "wiki_location": "Image:720x225_SmoothWalls7.png",
+    "local_filename": "720x225_SmoothWalls7.png",
+    "local_filepath": "resources/tilesets/720x225_SmoothWalls7.png"
+  },
+  {
+    "wiki_location": "Image:Nostalgia_720x225.png",
+    "local_filename": "Nostalgia_720x225.png",
+    "local_filepath": "resources/tilesets/Nostalgia_720x225.png"
+  },
+  {
+    "wiki_location": "Image:DortenSolid.png",
+    "local_filename": "DortenSolid.png",
+    "local_filepath": "resources/tilesets/DortenSolid.png"
+  },
+  {
+    "wiki_location": "Image:Curses_720x225_8d6752.png",
+    "local_filename": "Curses_720x225_8d6752.png",
+    "local_filepath": "resources/tilesets/Curses_720x225_8d6752.png"
+  },
+  {
+    "wiki_location": "Image:Anikki_square_10x10.png",
+    "local_filename": "Anikki_square_10x10.png",
+    "local_filepath": "resources/tilesets/Anikki_square_10x10.png"
+  },
+  {
+    "wiki_location": "Image:buddy.png",
+    "local_filename": "buddy.png",
+    "local_filepath": "resources/tilesets/buddy.png"
+  },
+  {
+    "wiki_location": "Image:buddy--graphical.png",
+    "local_filename": "buddy--graphical.png",
+    "local_filepath": "resources/tilesets/buddy--graphical.png"
+  },
+  {
+    "wiki_location": "Image:ddw.png",
+    "local_filename": "ddw.png",
+    "local_filepath": "resources/tilesets/ddw.png"
+  },
+  {
+    "wiki_location": "Image:Paul_10x10.png",
+    "local_filename": "Paul_10x10.png",
+    "local_filepath": "resources/tilesets/Paul_10x10.png"
+  },
+  {
+    "wiki_location": "Image:Potash_10x10.png",
+    "local_filename": "Potash_10x10.png",
+    "local_filepath": "resources/tilesets/Potash_10x10.png"
+  },
+  {
+    "wiki_location": "Image:Taffer 10x10.png",
+    "local_filename": "Taffer 10x10.png",
+    "local_filepath": "resources/tilesets/Taffer 10x10.png"
+  },
+  {
+    "wiki_location": "Image:Terbert_10x10.png",
+    "local_filename": "Terbert_10x10.png",
+    "local_filepath": "resources/tilesets/Terbert_10x10.png"
+  },
+  {
+    "wiki_location": "Image:Tocky_square_10x10.png",
+    "local_filename": "Tocky_square_10x10.png",
+    "local_filepath": "resources/tilesets/Tocky_square_10x10.png"
+  },
+  {
+    "wiki_location": "Image:terminus.png",
+    "local_filename": "terminus.png",
+    "local_filepath": "resources/tilesets/terminus.png"
+  },
+  {
+    "wiki_location": "Image:Alloy_curses_12x12.png",
+    "local_filename": "Alloy_curses_12x12.png",
+    "local_filepath": "resources/tilesets/Alloy_curses_12x12.png"
+  },
+  {
+    "wiki_location": "Image:cheepicus_12x12.png",
+    "local_filename": "cheepicus_12x12.png",
+    "local_filepath": "resources/tilesets/cheepicus_12x12.png"
+  },
+  {
+    "wiki_location": "Image:Unknown curses 12x12 & Markvii Walls.png",
+    "local_filename": "Unknown curses 12x12 & Markvii Walls.png",
+    "local_filepath": "resources/tilesets/Unknown curses 12x12 & Markvii Walls.png"
+  },
+  {
+    "wiki_location": "Image:Haberdash_curses_12x12.png",
+    "local_filename": "Haberdash_curses_12x12.png",
+    "local_filepath": "resources/tilesets/Haberdash_curses_12x12.png"
+  },
+  {
+    "wiki_location": "Image:DB_curses_12x12.PNG",
+    "local_filename": "DB_curses_12x12.PNG",
+    "local_filepath": "resources/tilesets/DB_curses_12x12.PNG"
+  },
+  {
+    "wiki_location": "Image:Herrbdog_144.png",
+    "local_filename": "Herrbdog_144.png",
+    "local_filepath": "resources/tilesets/Herrbdog_144.png"
+  },
+  {
+    "wiki_location": "Image:Dullard_Exponent_12x12.png",
+    "local_filename": "Dullard_Exponent_12x12.png",
+    "local_filepath": "resources/tilesets/Dullard_Exponent_12x12.png"
+  },
+  {
+    "wiki_location": "Image:mkv_solidcurses_stairs_960x300.png",
+    "local_filename": "mkv_solidcurses_stairs_960x300.png",
+    "local_filepath": "resources/tilesets/mkv_solidcurses_stairs_960x300.png"
+  },
+  {
+    "wiki_location": "Image:Mkv_solidcurses_960x300.png",
+    "local_filename": "Mkv_solidcurses_960x300.png",
+    "local_filepath": "resources/tilesets/Mkv_solidcurses_960x300.png"
+  },
+  {
+    "wiki_location": "Image:Markvii.png",
+    "local_filename": "Markvii.png",
+    "local_filepath": "resources/tilesets/Markvii.png"
+  },
+  {
+    "wiki_location": "Image:Tileset_unknown_960x300_02.png",
+    "local_filename": "Tileset_unknown_960x300_02.png",
+    "local_filepath": "resources/tilesets/Tileset_unknown_960x300_02.png"
+  },
+  {
+    "wiki_location": "Image:Unknown_curses_12x12.png",
+    "local_filename": "Unknown_curses_12x12.png",
+    "local_filepath": "resources/tilesets/Unknown_curses_12x12.png"
+  },
+  {
+    "wiki_location": "Image:nice_curses_12x12.png",
+    "local_filename": "nice_curses_12x12.png",
+    "local_filepath": "resources/tilesets/nice_curses_12x12.png"
+  },
+  {
+    "wiki_location": "Image:yayo_tunur_1040x325.png",
+    "local_filename": "yayo_tunur_1040x325.png",
+    "local_filepath": "resources/tilesets/yayo_tunur_1040x325.png"
+  },
+  {
+    "wiki_location": "Image:Kren_13x13.png",
+    "local_filename": "Kren_13x13.png",
+    "local_filepath": "resources/tilesets/Kren_13x13.png"
+  },
+  {
+    "wiki_location": "Image:cheepicus_15x15.png",
+    "local_filename": "cheepicus_15x15.png",
+    "local_filepath": "resources/tilesets/cheepicus_15x15.png"
+  },
+  {
+    "wiki_location": "Image:Talryth_square_15x15.png",
+    "local_filename": "Talryth_square_15x15.png",
+    "local_filepath": "resources/tilesets/Talryth_square_15x15.png"
+  },
+  {
+    "wiki_location": "Image:Vidumec_15x15.png",
+    "local_filename": "Vidumec_15x15.png",
+    "local_filepath": "resources/tilesets/Vidumec_15x15.png"
+  },
+  {
+    "wiki_location": "Image:Aesomatica_16x16.png",
+    "local_filename": "Aesomatica_16x16.png",
+    "local_filepath": "resources/tilesets/Aesomatica_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Anikki_square_16x16.png",
+    "local_filename": "Anikki_square_16x16.png",
+    "local_filepath": "resources/tilesets/Anikki_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Fnord 16x16.png",
+    "local_filename": "Fnord 16x16.png",
+    "local_filepath": "resources/tilesets/Fnord 16x16.png"
+  },
+  {
+    "wiki_location": "Image:Anno_16x16.png",
+    "local_filename": "Anno_16x16.png",
+    "local_filepath": "resources/tilesets/Anno_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Bisasam_16x16.png",
+    "local_filename": "Bisasam_16x16.png",
+    "local_filepath": "resources/tilesets/Bisasam_16x16.png"
+  },
+  {
+    "wiki_location": "Image:cheepicus_8x8x2.png",
+    "local_filename": "cheepicus_8x8x2.png",
+    "local_filepath": "resources/tilesets/cheepicus_8x8x2.png"
+  },
+  {
+    "wiki_location": "Image:cheepicus_16x16.png",
+    "local_filename": "cheepicus_16x16.png",
+    "local_filepath": "resources/tilesets/cheepicus_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Cooz_curses_square_16x16.png",
+    "local_filename": "Cooz_curses_square_16x16.png",
+    "local_filepath": "resources/tilesets/Cooz_curses_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Guybrush_square_16x16.png",
+    "local_filename": "Guybrush_square_16x16.png",
+    "local_filepath": "resources/tilesets/Guybrush_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:GuybrushASCII_curses_square_16x16.png",
+    "local_filename": "GuybrushASCII_curses_square_16x16.png",
+    "local_filepath": "resources/tilesets/GuybrushASCII_curses_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Herrbdog_16x16_tileset.gif",
+    "local_filename": "Herrbdog_16x16_tileset.gif",
+    "local_filepath": "resources/tilesets/Herrbdog_16x16_tileset.gif"
+  },
+  {
+    "wiki_location": "Image:MRC_square_16x16.png",
+    "local_filename": "MRC_square_16x16.png",
+    "local_filepath": "resources/tilesets/MRC_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Kai-1280x400-v2 7512b5.png",
+    "local_filename": "Kai-1280x400-v2 7512b5.png",
+    "local_filepath": "resources/tilesets/Kai-1280x400-v2 7512b5.png"
+  },
+  {
+    "wiki_location": "Image:Kelora_16x16_diagonal.png",
+    "local_filename": "Kelora_16x16_diagonal.png",
+    "local_filepath": "resources/tilesets/Kelora_16x16_diagonal.png"
+  },
+  {
+    "wiki_location": "Image:Kelora_16x16_diagonal-clouds.png",
+    "local_filename": "Kelora_16x16_diagonal-clouds.png",
+    "local_filepath": "resources/tilesets/Kelora_16x16_diagonal-clouds.png"
+  },
+  {
+    "wiki_location": "Image:Kenran.png",
+    "local_filename": "Kenran.png",
+    "local_filepath": "resources/tilesets/Kenran.png"
+  },
+  {
+    "wiki_location": "Image:Kjammer square 16x16 v02.png",
+    "local_filename": "Kjammer square 16x16 v02.png",
+    "local_filepath": "resources/tilesets/Kjammer square 16x16 v02.png"
+  },
+  {
+    "wiki_location": "Image:Kjammer square 16x16 v00.png",
+    "local_filename": "Kjammer square 16x16 v00.png",
+    "local_filepath": "resources/tilesets/Kjammer square 16x16 v00.png"
+  },
+  {
+    "wiki_location": "Image:Md_curses_16x16.png",
+    "local_filename": "Md_curses_16x16.png",
+    "local_filepath": "resources/tilesets/Md_curses_16x16.png"
+  },
+  {
+    "wiki_location": "Image:DF-Nordic_v1.png",
+    "local_filename": "DF-Nordic_v1.png",
+    "local_filepath": "resources/tilesets/DF-Nordic_v1.png"
+  },
+  {
+    "wiki_location": "Image:PTTGV2tiles.png",
+    "local_filename": "PTTGV2tiles.png",
+    "local_filepath": "resources/tilesets/PTTGV2tiles.png"
+  },
+  {
+    "wiki_location": "Image:Msgothic.png",
+    "local_filename": "Msgothic.png",
+    "local_filepath": "resources/tilesets/Msgothic.png"
+  },
+  {
+    "wiki_location": "Image:Raving_1280x400.png",
+    "local_filename": "Raving_1280x400.png",
+    "local_filepath": "resources/tilesets/Raving_1280x400.png"
+  },
+  {
+    "wiki_location": "Image:Redjack17.png",
+    "local_filename": "Redjack17.png",
+    "local_filepath": "resources/tilesets/Redjack17.png"
+  },
+  {
+    "wiki_location": "Image:16x16_sm.png",
+    "local_filename": "16x16_sm.png",
+    "local_filepath": "resources/tilesets/16x16_sm.png"
+  },
+  {
+    "wiki_location": "Image:16x16-RogueYun-AgmEdit.png",
+    "local_filename": "16x16-RogueYun-AgmEdit.png",
+    "local_filepath": "resources/tilesets/16x16-RogueYun-AgmEdit.png"
+  },
+  {
+    "wiki_location": "Image:Sapphos_square_16x16.png",
+    "local_filename": "Sapphos_square_16x16.png",
+    "local_filepath": "resources/tilesets/Sapphos_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Savok_curses_1280x400_517caa.png",
+    "local_filename": "Savok_curses_1280x400_517caa.png",
+    "local_filepath": "resources/tilesets/Savok_curses_1280x400_517caa.png"
+  },
+  {
+    "wiki_location": "Image:SFE_Curses_square_16x16.png",
+    "local_filename": "SFE_Curses_square_16x16.png",
+    "local_filepath": "resources/tilesets/SFE_Curses_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Markx.png",
+    "local_filename": "Markx.png",
+    "local_filepath": "resources/tilesets/Markx.png"
+  },
+  {
+    "wiki_location": "Image:Tahin_16x16_rounded.png",
+    "local_filename": "Tahin_16x16_rounded.png",
+    "local_filepath": "resources/tilesets/Tahin_16x16_rounded.png"
+  },
+  {
+    "wiki_location": "Image:Tyr_1280x400.PNG",
+    "local_filename": "Tyr_1280x400.PNG",
+    "local_filepath": "resources/tilesets/Tyr_1280x400.PNG"
+  },
+  {
+    "wiki_location": "Image:Winterwing_Curses_16x16_lucon.png",
+    "local_filename": "Winterwing_Curses_16x16_lucon.png",
+    "local_filepath": "resources/tilesets/Winterwing_Curses_16x16_lucon.png"
+  },
+  {
+    "wiki_location": "Image:Yayo_c64_1280x400_83b157.png",
+    "local_filename": "Yayo_c64_1280x400_83b157.png",
+    "local_filepath": "resources/tilesets/Yayo_c64_1280x400_83b157.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_16x16.png",
+    "local_filename": "Zaratustra_16x16.png",
+    "local_filepath": "resources/tilesets/Zaratustra_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Zilk_16x16.png",
+    "local_filename": "Zilk_16x16.png",
+    "local_filepath": "resources/tilesets/Zilk_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Runeset_16x16.png",
+    "local_filename": "Runeset_16x16.png",
+    "local_filepath": "resources/tilesets/Runeset_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Haowan_Curses_1440x450.png",
+    "local_filename": "Haowan_Curses_1440x450.png",
+    "local_filepath": "resources/tilesets/Haowan_Curses_1440x450.png"
+  },
+  {
+    "wiki_location": "Image:Teeto_K_18x18.PNG",
+    "local_filename": "Teeto_K_18x18.PNG",
+    "local_filepath": "resources/tilesets/Teeto_K_18x18.PNG"
+  },
+  {
+    "wiki_location": "Image:Anikki_square_20x20.png",
+    "local_filename": "Anikki_square_20x20.png",
+    "local_filepath": "resources/tilesets/Anikki_square_20x20.png"
+  },
+  {
+    "wiki_location": "Image:Bisasam_20x20.png",
+    "local_filename": "Bisasam_20x20.png",
+    "local_filepath": "resources/tilesets/Bisasam_20x20.png"
+  },
+  {
+    "wiki_location": "Image:Bisasam_20x20_ascii.png",
+    "local_filename": "Bisasam_20x20_ascii.png",
+    "local_filepath": "resources/tilesets/Bisasam_20x20_ascii.png"
+  },
+  {
+    "wiki_location": "Image:Taffer_20x20.png",
+    "local_filename": "Taffer_20x20.png",
+    "local_filepath": "resources/tilesets/Taffer_20x20.png"
+  },
+  {
+    "wiki_location": "Image:Oreslam_1920x1200_20x20.png",
+    "local_filename": "Oreslam_1920x1200_20x20.png",
+    "local_filepath": "resources/tilesets/Oreslam_1920x1200_20x20.png"
+  },
+  {
+    "wiki_location": "Image:Bisasam_20x20_mod_T.png",
+    "local_filename": "Bisasam_20x20_mod_T.png",
+    "local_filepath": "resources/tilesets/Bisasam_20x20_mod_T.png"
+  },
+  {
+    "wiki_location": "File:Curses square 24.png",
+    "local_filename": "Curses square 24.png",
+    "local_filepath": "resources/tilesets/Curses square 24.png"
+  },
+  {
+    "wiki_location": "Image:Bisasam_24x24.png",
+    "local_filename": "Bisasam_24x24.png",
+    "local_filepath": "resources/tilesets/Bisasam_24x24.png"
+  },
+  {
+    "wiki_location": "Image:Nagidal24x24shade.png",
+    "local_filename": "Nagidal24x24shade.png",
+    "local_filepath": "resources/tilesets/Nagidal24x24shade.png"
+  },
+  {
+    "wiki_location": "Image:Runeset_24x24.png",
+    "local_filename": "Runeset_24x24.png",
+    "local_filepath": "resources/tilesets/Runeset_24x24.png"
+  },
+  {
+    "wiki_location": "Image:Sir_Henry%27s_32x32.png",
+    "local_filename": "Sir_Henry%27s_32x32.png",
+    "local_filepath": "resources/tilesets/Sir_Henry%27s_32x32.png"
+  },
+  {
+    "wiki_location": "Image:Runeset_32x32.png",
+    "local_filename": "Runeset_32x32.png",
+    "local_filepath": "resources/tilesets/Runeset_32x32.png"
+  },
+  {
+    "wiki_location": "Image:hack_square_64x64.png",
+    "local_filename": "hack_square_64x64.png",
+    "local_filepath": "resources/tilesets/hack_square_64x64.png"
+  },
+  {
+    "wiki_location": "Image:Crazy 8x8s.png",
+    "local_filename": "Crazy 8x8s.png",
+    "local_filepath": "resources/tilesets/Crazy 8x8s.png"
+  },
+  {
+    "wiki_location": "File:Grim Fortress sample tileset.png",
+    "local_filename": "Grim Fortress sample tileset.png",
+    "local_filepath": "resources/tilesets/Grim Fortress sample tileset.png"
+  },
+  {
+    "wiki_location": "Image:Jolly12x12.png",
+    "local_filename": "Jolly12x12.png",
+    "local_filepath": "resources/tilesets/Jolly12x12.png"
+  },
+  {
+    "wiki_location": "Image:Belal_Smooth_Walls.png",
+    "local_filename": "Belal_Smooth_Walls.png",
+    "local_filepath": "resources/tilesets/Belal_Smooth_Walls.png"
+  },
+  {
+    "wiki_location": "Image:DarkondDigsDeeper_16x16.png",
+    "local_filename": "DarkondDigsDeeper_16x16.png",
+    "local_filepath": "resources/tilesets/DarkondDigsDeeper_16x16.png"
+  },
+  {
+    "wiki_location": "Image:DwarfletterGothic.PNG",
+    "local_filename": "DwarfletterGothic.PNG",
+    "local_filepath": "resources/tilesets/DwarfletterGothic.PNG"
+  },
+  {
+    "wiki_location": "Image:Flying_Mage_square_16x16.png",
+    "local_filename": "Flying_Mage_square_16x16.png",
+    "local_filepath": "resources/tilesets/Flying_Mage_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Gold_plated_16x16_v2.png",
+    "local_filename": "Gold_plated_16x16_v2.png",
+    "local_filepath": "resources/tilesets/Gold_plated_16x16_v2.png"
+  },
+  {
+    "wiki_location": "Image:Gold-plated-bmp-16x16.png",
+    "local_filename": "Gold-plated-bmp-16x16.png",
+    "local_filepath": "resources/tilesets/Gold-plated-bmp-16x16.png"
+  },
+  {
+    "wiki_location": "Image:Hermano.png",
+    "local_filename": "Hermano.png",
+    "local_filepath": "resources/tilesets/Hermano.png"
+  },
+  {
+    "wiki_location": "Image:16x16_isenhertz_v2.png",
+    "local_filename": "16x16_isenhertz_v2.png",
+    "local_filepath": "resources/tilesets/16x16_isenhertz_v2.png"
+  },
+  {
+    "wiki_location": "Image:Lemunde_16x16.png",
+    "local_filename": "Lemunde_16x16.png",
+    "local_filepath": "resources/tilesets/Lemunde_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Martin_16x16.png",
+    "local_filename": "Martin_16x16.png",
+    "local_filepath": "resources/tilesets/Martin_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Phoebus_16x16.png",
+    "local_filename": "Phoebus_16x16.png",
+    "local_filepath": "resources/tilesets/Phoebus_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Phssthpok_16x16.png",
+    "local_filename": "Phssthpok_16x16.png",
+    "local_filepath": "resources/tilesets/Phssthpok_16x16.png"
+  },
+  {
+    "wiki_location": "Image:SL_square_16x16.png",
+    "local_filename": "SL_square_16x16.png",
+    "local_filepath": "resources/tilesets/SL_square_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Autonomous_Font.png",
+    "local_filename": "Autonomous_Font.png",
+    "local_filepath": "resources/tilesets/Autonomous_Font.png"
+  },
+  {
+    "wiki_location": "Image:Synergy.png",
+    "local_filename": "Synergy.png",
+    "local_filepath": "resources/tilesets/Synergy.png"
+  },
+  {
+    "wiki_location": "Image:Moons_square_16x16.PNG",
+    "local_filename": "Moons_square_16x16.PNG",
+    "local_filepath": "resources/tilesets/Moons_square_16x16.PNG"
+  },
+  {
+    "wiki_location": "Image:tigrex3d.PNG",
+    "local_filename": "tigrex3d.PNG",
+    "local_filepath": "resources/tilesets/tigrex3d.PNG"
+  },
+  {
+    "wiki_location": "Image:tigrex3drunes.PNG",
+    "local_filename": "tigrex3drunes.PNG",
+    "local_filepath": "resources/tilesets/tigrex3drunes.PNG"
+  },
+  {
+    "wiki_location": "Image:Tims_16x16.png",
+    "local_filename": "Tims_16x16.png",
+    "local_filepath": "resources/tilesets/Tims_16x16.png"
+  },
+  {
+    "wiki_location": "Image:Lord-Nightmare-Terminal-4x6.png",
+    "local_filename": "Lord-Nightmare-Terminal-4x6.png",
+    "local_filepath": "resources/tilesets/Lord-Nightmare-Terminal-4x6.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_custom_4x6.png",
+    "local_filename": "Zaratustra_custom_4x6.png",
+    "local_filepath": "resources/tilesets/Zaratustra_custom_4x6.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_custom_5x6.png",
+    "local_filename": "Zaratustra_custom_5x6.png",
+    "local_filepath": "resources/tilesets/Zaratustra_custom_5x6.png"
+  },
+  {
+    "wiki_location": "Image:Font6x8.png",
+    "local_filename": "Font6x8.png",
+    "local_filepath": "resources/tilesets/Font6x8.png"
+  },
+  {
+    "wiki_location": "Image:Ti84.png",
+    "local_filename": "Ti84.png",
+    "local_filepath": "resources/tilesets/Ti84.png"
+  },
+  {
+    "wiki_location": "Image:Curses6x9.png",
+    "local_filename": "Curses6x9.png",
+    "local_filepath": "resources/tilesets/Curses6x9.png"
+  },
+  {
+    "wiki_location": "File:Bedstead-10-df.png",
+    "local_filename": "Bedstead-10-df.png",
+    "local_filepath": "resources/tilesets/Bedstead-10-df.png"
+  },
+  {
+    "wiki_location": "File:Andux_cp866ish.png",
+    "local_filename": "Andux_cp866ish.png",
+    "local_filepath": "resources/tilesets/Andux_cp866ish.png"
+  },
+  {
+    "wiki_location": "File:Andux_sleipnir_8x12_tf.png",
+    "local_filename": "Andux_sleipnir_8x12_tf.png",
+    "local_filepath": "resources/tilesets/Andux_sleipnir_8x12_tf.png"
+  },
+  {
+    "wiki_location": "File:DF+Tileset.png",
+    "local_filename": "DF+Tileset.png",
+    "local_filepath": "resources/tilesets/DF+Tileset.png"
+  },
+  {
+    "wiki_location": "Image:Kein_640x300.png",
+    "local_filename": "Kein_640x300.png",
+    "local_filepath": "resources/tilesets/Kein_640x300.png"
+  },
+  {
+    "wiki_location": "Image:Plac1d_640x300tileset.png",
+    "local_filename": "Plac1d_640x300tileset.png",
+    "local_filepath": "resources/tilesets/Plac1d_640x300tileset.png"
+  },
+  {
+    "wiki_location": "Image:Curses 640x300diag.png",
+    "local_filename": "Curses 640x300diag.png",
+    "local_filepath": "resources/tilesets/Curses 640x300diag.png"
+  },
+  {
+    "wiki_location": "Image:MDA8x14.png",
+    "local_filename": "MDA8x14.png",
+    "local_filepath": "resources/tilesets/MDA8x14.png"
+  },
+  {
+    "wiki_location": "Image:EGA8x14.png",
+    "local_filename": "EGA8x14.png",
+    "local_filepath": "resources/tilesets/EGA8x14.png"
+  },
+  {
+    "wiki_location": "Image:CP850.png",
+    "local_filename": "CP850.png",
+    "local_filepath": "resources/tilesets/CP850.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_megazeux2.png",
+    "local_filename": "Zaratustra_megazeux2.png",
+    "local_filepath": "resources/tilesets/Zaratustra_megazeux2.png"
+  },
+  {
+    "wiki_location": "Image:Lord_Nightmare-Fixedsys-02.png",
+    "local_filename": "Lord_Nightmare-Fixedsys-02.png",
+    "local_filepath": "resources/tilesets/Lord_Nightmare-Fixedsys-02.png"
+  },
+  {
+    "wiki_location": "Image:VGA8x16.png",
+    "local_filename": "VGA8x16.png",
+    "local_filepath": "resources/tilesets/VGA8x16.png"
+  },
+  {
+    "wiki_location": "Image:Lord_Nightmare-Fixedsys-03.png",
+    "local_filename": "Lord_Nightmare-Fixedsys-03.png",
+    "local_filepath": "resources/tilesets/Lord_Nightmare-Fixedsys-03.png"
+  },
+  {
+    "wiki_location": "Image:Acorntileset.png",
+    "local_filename": "Acorntileset.png",
+    "local_filepath": "resources/tilesets/Acorntileset.png"
+  },
+  {
+    "wiki_location": "Image:Yoshis_island.png",
+    "local_filename": "Yoshis_island.png",
+    "local_filepath": "resources/tilesets/Yoshis_island.png"
+  },
+  {
+    "wiki_location": "Image:MDA9x14.png",
+    "local_filename": "MDA9x14.png",
+    "local_filepath": "resources/tilesets/MDA9x14.png"
+  },
+  {
+    "wiki_location": "Image:EGA9x14.png",
+    "local_filename": "EGA9x14.png",
+    "local_filepath": "resources/tilesets/EGA9x14.png"
+  },
+  {
+    "wiki_location": "Image:VGA9x16.png",
+    "local_filename": "VGA9x16.png",
+    "local_filepath": "resources/tilesets/VGA9x16.png"
+  },
+  {
+    "wiki_location": "File:Curses_800x600_shade.png",
+    "local_filename": "Curses_800x600_shade.png",
+    "local_filepath": "resources/tilesets/Curses_800x600_shade.png"
+  },
+  {
+    "wiki_location": "Image:eofshaded800x600pb9_f64ded.png",
+    "local_filename": "eofshaded800x600pb9_f64ded.png",
+    "local_filepath": "resources/tilesets/eofshaded800x600pb9_f64ded.png"
+  },
+  {
+    "wiki_location": "Image:Sleroux_800x300.png",
+    "local_filename": "Sleroux_800x300.png",
+    "local_filepath": "resources/tilesets/Sleroux_800x300.png"
+  },
+  {
+    "wiki_location": "Image:nice_curses_10x12.png",
+    "local_filename": "nice_curses_10x12.png",
+    "local_filepath": "resources/tilesets/nice_curses_10x12.png"
+  },
+  {
+    "wiki_location": "Image:UncleSporky_curses_800x600.png",
+    "local_filename": "UncleSporky_curses_800x600.png",
+    "local_filepath": "resources/tilesets/UncleSporky_curses_800x600.png"
+  },
+  {
+    "wiki_location": "Image:Zaratustra_custom800x300ca3.png",
+    "local_filename": "Zaratustra_custom800x300ca3.png",
+    "local_filepath": "resources/tilesets/Zaratustra_custom800x300ca3.png"
+  },
+  {
+    "wiki_location": "Image:Lord_Nightmare_Freehand_10x16.png",
+    "local_filename": "Lord_Nightmare_Freehand_10x16.png",
+    "local_filepath": "resources/tilesets/Lord_Nightmare_Freehand_10x16.png"
+  },
+  {
+    "wiki_location": "Image:Lord_Nightmare_Freehand^2_10x16.png",
+    "local_filename": "Lord_Nightmare_Freehand^2_10x16.png",
+    "local_filepath": "resources/tilesets/Lord_Nightmare_Freehand^2_10x16.png"
+  },
+  {
+    "wiki_location": "Image:Vintl01.png",
+    "local_filename": "Vintl01.png",
+    "local_filepath": "resources/tilesets/Vintl01.png"
+  },
+  {
+    "wiki_location": "File:Bedstead-20-df.png",
+    "local_filename": "Bedstead-20-df.png",
+    "local_filepath": "resources/tilesets/Bedstead-20-df.png"
+  },
+  {
+    "wiki_location": "File:Cooz_curses_14x16.png",
+    "local_filename": "Cooz_curses_14x16.png",
+    "local_filepath": "resources/tilesets/Cooz_curses_14x16.png"
+  },
+  {
+    "wiki_location": "Image:Shizzle_1280x500.png",
+    "local_filename": "Shizzle_1280x500.png",
+    "local_filepath": "resources/tilesets/Shizzle_1280x500.png"
+  },
+  {
+    "wiki_location": "Image:MRC_1280x600.png",
+    "local_filename": "MRC_1280x600.png",
+    "local_filepath": "resources/tilesets/MRC_1280x600.png"
+  },
+  {
+    "wiki_location": "Image:Lumin_Graphical_1280x800.png",
+    "local_filename": "Lumin_Graphical_1280x800.png",
+    "local_filepath": "resources/tilesets/Lumin_Graphical_1280x800.png"
+  },
+  {
+    "wiki_location": "Image:Curses_24pt_cleartype_ThomModifications.PNG",
+    "local_filename": "Curses_24pt_cleartype_ThomModifications.PNG",
+    "local_filepath": "resources/tilesets/Curses_24pt_cleartype_ThomModifications.PNG"
+  },
+  {
+    "wiki_location": "Image:TerminusAliased_handedit_gal.png",
+    "local_filename": "TerminusAliased_handedit_gal.png",
+    "local_filepath": "resources/tilesets/TerminusAliased_handedit_gal.png"
+  },
+  {
+    "wiki_location": "Image:Terminus24.png",
+    "local_filename": "Terminus24.png",
+    "local_filepath": "resources/tilesets/Terminus24.png"
+  },
+  {
+    "wiki_location": "Image:Curses_1920x900.png",
+    "local_filename": "Curses_1920x900.png",
+    "local_filepath": "resources/tilesets/Curses_1920x900.png"
+  },
+  {
+    "wiki_location": "Image:Vector square 48x72.png",
+    "local_filename": "Vector square 48x72.png",
+    "local_filepath": "resources/tilesets/Vector square 48x72.png"
+  }
+]
