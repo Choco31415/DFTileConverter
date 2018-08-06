@@ -4,7 +4,7 @@
 
 DFTileConverter is a python program that converts a Dwarf Fortress screenshot to a new tileset.
 
-All tilesets in the [DF Wiki tileset repo](http://dwarffortresswiki.org/Tileset_repository) are supported.
+All tilesets in the [DF Wiki tileset repo](http://dwarffortresswiki.org/Tileset_repository) are supported, ignoring those requiring edited raws.
 
 ## Setup
 
