@@ -4,7 +4,7 @@ Need testing.
 # Handle imports
 import unittest
 
-from LoadTilesets import image_to_array, load_tileset_info, get_tileset_by_id, get_id_of_tileset, get_tileset
+from LoadTilesets import image_to_array, get_tileset_by_id, get_id_of_tileset, get_tileset
 from Convert import detect_tileset, check_tileset_all_offsets, get_tile_ids
 import numpy as np
 import json

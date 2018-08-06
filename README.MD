@@ -8,7 +8,7 @@ DFTileConverter is a python program that converts a Dwarf Fortress screenshot to
 
 `pip install -r requirements.txt`
 
-Note: The initial run will be a minute slower then all subsequent runs.
+Note: The initial run will be slower then all subsequent runs.
 
 ## Usage
 
@@ -27,7 +27,7 @@ convert_screenshot(input_filepath, output_filepath, tileset)
 
 ## Common Issues
 
-1. It's taking over a minute!
+1. It's obtained tile id's, but is now stuck!
     * This is most likely because the screenshot's tileset is not recognized. There are two options:
         1. Please add the tileset to the [DF Wiki tileset repository](http://dwarffortresswiki.org/Tileset_repository), then re-run `TilesetScrapper.py`.
         2. Manually add the tileset to `resources/default_tileset_info.txt`.
