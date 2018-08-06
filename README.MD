@@ -1,5 +1,7 @@
 ![An example image conversion, before and after being side by side.](resources/Example.png "Example Conversion")
 
+[![Build Status](https://travis-ci.com/Choco31415/DFTileConverter.svg?branch=master)](https://travis-ci.com/Choco31415/DFTileConverter)
+
 DFTileConverter is a python program that converts a Dwarf Fortress screenshot to a new tileset.
 
 ## Setup
